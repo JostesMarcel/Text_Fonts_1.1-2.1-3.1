@@ -1,0 +1,105 @@
+/*------- Aufgabe 1_1 -------*/
+
+h2:nth-of-type(1) {
+    font-size: 48px;
+    background: gray;
+    font-family: Arial;
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: #333;
+    font-size: 20px;
+}
+
+ul:nth-of-type(1) li:nth-of-type(1) {
+    color: #777;
+    font-size: 20px;
+    text-decoration:overline ;
+    text-align: left;
+}
+
+ul:nth-of-type(1) li:nth-of-type(2) {
+    color: #777;
+    font-size: 20px;
+    text-decoration:line-through ;
+    text-align: center;
+}
+
+ul:nth-of-type(1) li:nth-of-type(3) {
+    color: #777;
+    font-size: 20px;
+    text-decoration:underline ;
+    text-align: right;
+}
+
+/*------- Aufgabe 2_1 -------*/
+
+h1:nth-of-type(1) {
+    font-size: 48px;
+    background: darkgray;
+    text-shadow: 5px 5px 2px green;
+    font-family: Tahoma;
+    color: white;
+    text-align: center;
+}
+
+nav:nth-of-type(1) p:nth-child(1) {
+    text-indent: 50px;
+    word-spacing: 20px;
+    font-family: "Lucida Sans Unicode";
+}
+
+main:nth-of-type(1) p:nth-child(1) {
+    text-indent: 100px;
+    word-spacing: -3px;
+}
+
+h2:nth-of-type(2) {
+    text-shadow: 2px 2px lime;
+    letter-spacing: 5px;
+}
+
+section:nth-of-type(1) p:nth-child(1) {
+    line-height: 35px;
+    background: blue
+}
+
+aside:nth-of-type(1) p:nth-child(1) {
+    line-height: 40px;
+    background: violet;
+}
+
+/*------- Aufgabe 3_1 -------*/
+
+h1:nth-of-type(2) {
+    font-size: 48px;
+    background: darkkhaki;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+main:nth-of-type(2) p:nth-child(1) {
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+section:nth-of-type(2) p:nth-child(1) {
+    text-transform: lowercase;
+    text-decoration: underline;
+}
+h2:nth-of-type(3) {
+    word-spacing: 5px;
+    letter-spacing: 10px;
+    text-shadow: -2px -2px rgb(179, 13, 13);
+}
+
+ul:nth-of-type(2) {
+    background-color: rgb(202, 202, 202);
+}
+
+ul:nth-of-type(2) li {
+    background: gray;
+    padding: 0px 70px;
+}
